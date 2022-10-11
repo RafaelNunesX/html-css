@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1> 
+    <h2>Listas Ordenadas</h2>
+    <ol type="I"> <!-- 1 A a I i-->
+        <li>Acordar</li>
+        <li>Refletir</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Estudar</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+
+    <h2>Listas não ordenas</h2>
+    <ul type="square"> <!-- disc circle square-->
+        <li>Pão</li>
+        <li>Queijo</li>
+        <li>Presunto</li>
+        <li>Suco</li>
+        <li>Danone</li>
+    </ul>
+
+    <h2>Juntando linguagens favoritas</h2>
+    <ol> <!--Aninhamento é quando organizamos nosso código de forma que pareça uma escada-->
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphin</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <!--Segurando a tecla "Alt" você consegue selecionar as tags e edita-lás ao mesmo tempo-->
+    <ol>
+        <li>Nintendo 64</li> 
+        <ul type="square">
+            <li>Zelda</li>
+                <ul type="circle">
+                    <li>Zelda Majoras Mask</li>
+                    <li>Zelda Ocarina of time</li>
+                </ul>
+            <li>Mario</li>
+                <ul type="circle">
+                    <li>Mario 64</li>
+                </ul>
+            <li>Donkey Kong</li>
+            <ul type="circle">
+                <li>Donkey Kong 64</li>
+            </ul>
+        </ul>
+
+        <li>PlayStation 2</li> 
+        <ul type="square">
+            <li>Digimon</li>
+                <ul type="circle">
+                    <li>Digimon Data Squad</li>
+                    <li>Digimon World 4</li>
+                </ul>
+            <li>Darkcloud</li>
+                <ul type="circle">
+                    <li>DarkCloud 1</li>
+                    <li>DarkCloud 2</li>
+                </ul>
+            <li>Ben10</li>
+                <ul type="circle">
+                    <li>Ben10 vilgax ataca</li>
+                    <li>Ben10 Força alienigena</li>
+                </ul>
+        </ul>
+
+        <li>Nintendo Wii</li>
+        <ul type="square">
+            <li>Zelda</li>
+            <ul type="circle">
+                <li>Zelda Twilight Princess</li>
+                <li>Zelda Skyward Sword</li>
+            </ul>
+            <li>Donkey Kong</li>
+            <ul type="circle">
+                <li>Donkey Kong Country Return</li>
+                <li>Donkey Kong Jungle beat</li>
+            </ul>
+            <li>Metroid Prime</li>
+            <ul type="circle">
+                <li>Metroid Prime 1</li>
+                <li>Metroid Prime 2</li>
+                <li>Metroid Prime 3</li>
+            </ul>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2> <!--Além de organizar as definições a tag dl, dt e dd ajuda no mecanismo de busca do google-->
+    <dl> <!--Lista de definição dl--> 
+
+        <dt>HTML</dt> <!--Termo dt-->
+        <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd> <!--Descrição dd-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para d criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site</dd>
+    </dl>
+</body>
+</html>

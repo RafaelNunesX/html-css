@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Dizer para o navegador que o site tá em pt-br ae aceitar os ç ^ ~ e etc...*/
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-image: linear-gradient(to right, #818274, #A3AB78);
+}
+
+main
+{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #4c5039be;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1
+{
+    color:  #52a1b1;
+    text-align: center;
+    text-shadow: 1px 1px 0px #0e3b442c;
+}
+
+h2
+{
+    color: #5a6b1e;
+}
+
+p
+{
+    text-align: justify;
+}

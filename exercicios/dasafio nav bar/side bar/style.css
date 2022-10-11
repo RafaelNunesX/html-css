@@ -1,0 +1,30 @@
+@charset "UTF-8";  
+
+ul
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.39);
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+li > a
+{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+}
+
+li > a:hover
+
+{
+    background-color: red;
+}
